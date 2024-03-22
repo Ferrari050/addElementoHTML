@@ -7,6 +7,7 @@ header{
     justify-content: center;
     align-items: center;
     display: flex;
+    
 }
 
 .headerButton{
@@ -15,8 +16,9 @@ header{
     height: 30px;
     font-size: 25px;
     font-weight: bold;
-    background-color: white;
+    background-color: gray;
     border: none;
+    color: white;
 }
 
 #resetButton{
@@ -30,6 +32,7 @@ header{
     justify-content: center;
     align-items: center;
     border: 1px white solid;
+    border-radius: 20px;
 }
 
 .list{
@@ -47,8 +50,18 @@ header{
     width: 100px;
     height: 100px;
     list-style: none;
+    border-radius: 15px;
 }
 
 .listModule:active{
     background-color: gray;
+}
+
+.buttons{
+    width: 105px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
