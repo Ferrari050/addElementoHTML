@@ -1,68 +1,70 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-header{
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
+header {
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.headerButton{
-    border-radius: 15px;
-    width: 50px;
-    height: 30px;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: gray;
-    border: none;
-    color: white;
+.headerButton {
+  border-radius: 15px;
+  width: 50px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: gray;
+  border: none;
+  color: white;
 }
 
-
-#resetButton{
-    font-size: 14px;
+#resetButton {
+  font-size: 14px;
 }
 
-.mainContainer{
-    margin: 0 auto;
-    width: 500px;
-    min-height: 250px;
-    justify-content: center;
-    align-items: center;
-    border: 1px white solid;
-    border-radius: 20px;
+.mainContainer {
+  margin: 0 auto;
+  width: 500px;
+  min-height: 250px;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  border-radius: 20px;
 }
 
-.list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-   
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
-.listModule{
-    border: 1px white solid;
-    width: 100px;
-    height: 100px;
-    list-style: none;
-    border-radius: 15px;
+.listModule {
+  border: 1px white solid;
+  width: 100px;
+  height: 100px;
+  list-style: none;
+  border-radius: 15px;
 }
 
-.listModule:active{
-    background-color: gray;
+.listModule:active {
+  background-color: gray;
 }
 
-.buttons{
-    width: 105px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+.buttons {
+  width: 105px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+button:active {
+  transform: scale(0.9);
+  background-color: rgba(128, 128, 128, 0.377);
 }
